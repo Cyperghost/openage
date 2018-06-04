@@ -25,7 +25,7 @@ python3 -m openage codegen
 
     (optional)
 
-    --touch-file-on-cache-change (CMakeLists.txt)
+    --touch-file-on-cache-change (FindNyan.cmake)
     --force-rerun-on-generated-list-change (bool)
 
 all file and directory names SHOULD be absolute paths.
@@ -84,7 +84,7 @@ def init_subparser(cli):
     cli.add_argument(
         "--touch-file-on-cache-change", dest="file_to_touch",
         help=("the file passed here is touched if one of the caches changes. "
-              "designed for use with a CMakeLists.txt file, to trigger cmake "
+              "designed for use with a FindNyan.cmake file, to trigger cmake "
               "re-runs."))
 
     cli.add_argument(

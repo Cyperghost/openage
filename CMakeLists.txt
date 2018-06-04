@@ -1,6 +1,9 @@
 # Copyright 2013-2017 the openage authors. See copying.md for legal info.
 
-cmake_minimum_required(VERSION 3.8.0)
+cmake_minimum_required(VERSION 3.8.1)
+set(PYTHON_INCLUDE_DIRS /Users/olafbraun/.pyenv/versions/3.5.0/bin/python)
+set(PYTHON /Users/olafbraun/.pyenv/versions/3.5.0/bin/python)
+
 # required for CMAKE_CXX_STANDARD for C++17
 
 # main build configuration file
